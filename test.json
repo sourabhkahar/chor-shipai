@@ -1,0 +1,76 @@
+{
+    "game": {
+      "players": [
+        {
+          "id": "player1",
+          "name": "Alice",
+          "score": 10,
+          "status": "active"
+        },
+        {
+          "id": "player2",
+          "name": "Bob",
+          "score": 15,
+          "status": "inactive"
+        },
+        {
+          "id": "player3",
+          "name": "Charlie",
+          "score": 20,
+          "status": "active"
+        },
+        {
+          "id": "player4",
+          "name": "Diana",
+          "score": 5,
+          "status": "active"
+        }
+      ],
+      "currentRound": 2,
+      "rounds": [
+        {
+          "roundNumber": 1,
+          "outcome": [
+            {
+              "playerId": "player1",
+              "result": "win"
+            },
+            {
+              "playerId": "player2",
+              "result": "loss"
+            },
+            {
+              "playerId": "player3",
+              "result": "win"
+            },
+            {
+              "playerId": "player4",
+              "result": "loss"
+            }
+          ]
+        },
+        {
+          "roundNumber": 2,
+          "outcome": [
+            {
+              "playerId": "player1",
+              "result": "loss"
+            },
+            {
+              "playerId": "player2",
+              "result": "win"
+            },
+            {
+              "playerId": "player3",
+              "result": "loss"
+            },
+            {
+              "playerId": "player4",
+              "result": "win"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
